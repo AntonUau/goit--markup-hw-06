@@ -1,0 +1,131 @@
+.container {
+    max-width: 768px;
+}
+.link-logo {
+    margin-right: 120px;
+}
+.list {
+    display: flex;
+    gap: 40px;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #404bbf;
+}
+.link::after {
+    background-color: #404bbf;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    content: "";
+}
+.heder-adress-list-list {
+color: #434455;
+font-size: 12px;
+line-height: 1.16;
+text-align: left;
+font-style: normal;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.heder-adress-list-list:hover,
+.heder-adress-list-list:focus {
+    color: #404bbf;
+}
+.one-line {
+    max-width: 768px;
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tablet-1.jpg);
+}
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .one-line {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tablet-2.jpg)
+    }
+}
+.maine {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    max-width: 496px;
+    text-transform: none;
+}
+.description {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: center;
+}
+.description-item {
+    width: 356px;
+}
+.title {
+    text-align: left;
+}
+.heder-title-list {
+    gap: 64px 24px;
+}
+.ul-our-portfolio {
+    gap: 72px 24px;
+}
+.portfolio-list {
+    width: 356px;
+}
+.modal {
+width: 408px;
+padding: 72px 24px 24px 24px;
+}
+.modal-form {
+    width: 360px;
+}
+.modal-input {
+    width: 360px;
+}
+.modal-in {
+    padding-left: 38px;
+}
+
+.footer-foot {
+    padding-top: 98px;
+    padding-bottom: 96px;
+}
+.footer-foot,
+.container {
+    max-width: 530px;
+    gap: 72px 24px;
+}
+.footer-logo-text {
+    text-align: left;
+}
+.footer-text {
+    width: 264px;
+}
+.footer-icon {
+    display: block;
+}
+.footer-media {
+    margin-bottom: 16px;
+}
+.footer-foot,
+.icon-media {
+    justify-content: center;
+}
+.footer-subscribe {
+    display: block;
+}
+.form-subscribe {
+    flex-wrap: nowrap;
+    gap: 24px;
+}
